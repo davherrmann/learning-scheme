@@ -8,8 +8,6 @@
           (f (- x k)))
        (* 2 k))))
 
-
-
 (define (ableiten fkt k) (differentiate fkt k))
 
 (define (sqr x) (* x x))
