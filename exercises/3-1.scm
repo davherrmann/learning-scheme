@@ -22,3 +22,5 @@
 (define (insert-sort l) (insert-sort2 l '()))
 
 (insert-sort '(2 4 1 6 4))
+(insert-sort '())
+(insert-sort '(3 2 1))
